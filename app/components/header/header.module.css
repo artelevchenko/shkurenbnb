@@ -1,0 +1,39 @@
+.header {
+	padding: 20px;
+	border-bottom: 1px solid gray;
+}
+
+.top {
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	left: 50px;
+	bottom: 15px;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+.button {
+	position: absolute;
+	border: 1px solid gray;
+	border-radius: 30px;
+	right: 30px;
+	top: 5px;
+	padding: 5px 10px;
+}
+
+.button:hover {
+	cursor: pointer;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.img {
+	margin-left: 10px;
+}
