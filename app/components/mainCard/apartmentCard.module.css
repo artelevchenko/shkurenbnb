@@ -1,0 +1,19 @@
+.card {
+	padding: 5px;
+	/* display: flex;
+	flex-direction: column; */
+	display: grid;
+	gap: 5px 5px;
+}
+
+.image {
+	border-radius: 10px;
+}
+.inscription {
+	display: grid;
+	grid-template-columns: 8fr 1fr;
+}
+
+.description {
+	color:darkgrey;
+}

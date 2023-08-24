@@ -1,27 +1,86 @@
 import styles from './carousel.module.css'
+import data from '../../../public/data/slides.json'
 import Image from 'next/image'
-import apple from '../../images/carousel/apple.png'
-import avocado from '../../images/carousel/avocado.png'
-import banana from '../../images/carousel/banana.png'
-import carrot from '../../images/carousel/carrot.png'
-import cherry from '../../images/carousel/cherry.png'
-import grape from '../../images/carousel/grape.png'
-import guava from '../../images/carousel/guava.png'
-import kiwi from '../../images/carousel/kiwi.png'
-import lemon from '../../images/carousel/lemon.png'
-import mango from '../../images/carousel/mango.png'
-import maracuja from '../../images/carousel/maracuja.png'
-import orange from '../../images/carousel/orange.png'
-import peach from '../../images/carousel/peach.png'
-import pear from '../../images/carousel/pear.png'
-import pineapple from '../../images/carousel/pineapple.png'
-import strawberry from '../../images/carousel/strawberry.png'
-import watermelon from '../../images/carousel/watermelon.png'
+import { JSX } from 'react';
+
 
 export default function Carousel() {
+
+	const slides = data.slides.reduce((result: any[], slide) => {
+		result.push(
+			<div className={styles.slide}>
+				<Image className={styles.image}
+					src={slide.img}
+					width={30}
+					height={30}
+					alt={slide.name}
+				/>
+				<div className={styles.inscription}>{slide.name}</div>
+			</div>
+		)
+		return result
+	}, []);
+
+	const slidesMap = data.slides.map((slide, i) => {
+		return (
+			<div key={i} className={styles.slide}>
+				<Image className={styles.image}
+					src={slide.img}
+					width={30}
+					height={30}
+					alt={slide.name}
+				/>
+				<div className={styles.inscription}>{slide.name}</div>
+			</div>
+	  )
+	});
+
+	const slidesbar: JSX.Element[] = [];
+	const slidesForEach = data.slides.forEach((slide) => {
+		slidesbar.push(
+			<div className={styles.slide}>
+				<Image className={styles.image}
+					src={slide.img}
+					width={30}
+					height={30}
+					alt={slide.name}
+				/>
+				<div className={styles.inscription}>{slide.name}</div>
+			</div>
+		)
+	})
+
+
+
 	return (
 		<div className={styles.carousel}>
-			<div className={styles.slide}>
+			{/* {slides} */}
+			{/* {slidesbar} */}
+			{slidesMap}
+		</div>
+	)
+}
+
+
+
+// import apple from '../../images/carousel/apple.png'
+// import avocado from '../../images/carousel/avocado.png'
+// import banana from '../../images/carousel/banana.png'
+// import carrot from '../../images/carousel/carrot.png'
+// import cherry from '../../images/carousel/cherry.png'
+// import grape from '../../images/carousel/grape.png'
+// import guava from '../../images/carousel/guava.png'
+// import kiwi from '../../images/carousel/kiwi.png'
+// import lemon from '../../images/carousel/lemon.png'
+// import mango from '../../images/carousel/mango.png'
+// import maracuja from '../../images/carousel/maracuja.png'
+// import orange from '../../images/carousel/orange.png'
+// import peach from '../../images/carousel/peach.png'
+// import pear from '../../images/carousel/pear.png'
+// import pineapple from '../../images/carousel/pineapple.png'
+// import strawberry from '../../images/carousel/strawberry.png'
+// import watermelon from '../../images/carousel/watermelon.png'
+{/* <div className={styles.slide}>
 				<Image className={styles.image}
 					src={apple}
 					width={30}
@@ -173,7 +232,4 @@ export default function Carousel() {
 					alt='watermelon'
 				/>
 				<div className={styles.inscription}>Watermelon</div>
-			</div>
-		</div>
-	)
-}
+			</div> */}

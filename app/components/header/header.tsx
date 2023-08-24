@@ -1,15 +1,12 @@
 import styles from './header.module.css'
 import Image from 'next/image'
-import shkurenBnB from '../../images/airbnb.png'
-import align from '../../images/align.png'
-import avatar from '../../images/avatar.png'
 
 export default function Header(){
 	return (
 		<div className={styles.header}>
 			<div className={styles.top}>
 				<Image
-      		src={shkurenBnB}
+      		src='/assets/images/airbnb.png'
       		width={50}
       		height={50}
       		alt="ShkurenBnB"
@@ -17,14 +14,14 @@ export default function Header(){
 				<div className={styles.logo}>shkurenBnB</div>
 				<button className={styles.button}>
 					<Image
-						src={align}
+						src='/assets/images/align.png'
 						width={30}
 						height={30}
 						alt='align'
 					/>
 					<Image
 						className={styles.img}
-						src={avatar}
+						src='/assets/images/avatar.png'
 						width={30}
 						height={30}
 						alt='avatar'
