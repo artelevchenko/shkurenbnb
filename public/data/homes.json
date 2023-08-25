@@ -1,68 +1,69 @@
 {
-	"homes": [
-		{
-			"id": "1",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 1",
-			"price": "60",
-			"score": 3.1,
-			"description": "418"
-		}, {
-			"id": "2",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 2",
-			"price": "161",
-			"score": 3.9,
-			"description": "663"
-		}, {
-			"id": "3",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 3",
-			"price": "139",
-			"score": 3.7,
-			"description": "548"
-		}, {
-			"id": "4",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 4",
-			"price": "154",
-			"score": 3.8,
-			"description": "530"
-		}, {
-			"id": "5",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 5",
-			"price": "67",
-			"score": 3.6,
-			"description": "265"
-		}, {
-			"id": "6",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 6",
-			"price": "169",
-			"score": 4.2,
-			"description": "695"
-		}, {
-			"id": "7",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 7",
-			"price": "76",
-			"score": 3.7,
-			"description": "515"
-		}, {
-			"id": "8",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 8",
-			"price": "226",
-			"score": 4.6,
-			"description": "163"
-		}, {
-			"id": "9",
-			"img": "/assets/images/main/defaultHome.jpg",
-			"name": "House 9",
-			"price": "136",
-			"score": 4.1,
-			"description": "829"
-		}
-	]
+  "homes": [
+    {
+      "id": "1",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 1",
+      "price": "60",
+      "score": 3.1,
+      "description": "418",
+      "options": ["basin", "balcony", "garage", "gym", "iron", "heating", "hot water","kitchen", "microwave", "Wi-Fi"]
+    }, {
+      "id": "2",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 2",
+      "price": "161",
+      "score": 3.9,
+      "description": "663"
+    }, {
+      "id": "3",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 3",
+      "price": "139",
+      "score": 3.7,
+      "description": "548"
+    }, {
+      "id": "4",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 4",
+      "price": "154",
+      "score": 3.8,
+      "description": "530"
+    }, {
+      "id": "5",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 5",
+      "price": "67",
+      "score": 3.6,
+      "description": "265"
+    }, {
+      "id": "6",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 6",
+      "price": "169",
+      "score": 4.2,
+      "description": "695"
+    }, {
+      "id": "7",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 7",
+      "price": "76",
+      "score": 3.7,
+      "description": "515"
+    }, {
+      "id": "8",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 8",
+      "price": "226",
+      "score": 4.6,
+      "description": "163"
+    }, {
+      "id": "9",
+      "img": "/assets/images/main/defaultHome.jpg",
+      "name": "House 9",
+      "price": "136",
+      "score": 4.1,
+      "description": "829"
+    }
+  ]
 }
