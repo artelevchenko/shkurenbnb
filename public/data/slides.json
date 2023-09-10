@@ -1,56 +1,44 @@
 {
   "slides": [
     {
-      "img": "/assets/images/carousel/apple.png",
-      "name": "Apple"
+      "img": "/assets/images/carousel/air-conditioner.png",
+      "name": "Air conditioner"
     }, {
-      "img": "/assets/images/carousel/avocado.png",
-      "name": "Avocado"
+      "img": "/assets/images/carousel/balcony.png",
+      "name": "Balcony"
     }, {
-      "img": "/assets/images/carousel/banana.png",
-      "name": "Banana"
+      "img": "/assets/images/carousel/basin.png",
+      "name": "Basin"
     }, {
-      "img": "/assets/images/carousel/carrot.png",
-      "name": "Carrot"
+      "img": "/assets/images/carousel/car-charger.png",
+      "name": "Car charger"
     }, {
-      "img": "/assets/images/carousel/cherry.png",
-      "name": "Cherry"
+      "img": "/assets/images/carousel/garage.png",
+      "name": "Garage"
     }, {
-      "img": "/assets/images/carousel/grape.png",
-      "name": "Grape"
+      "img": "/assets/images/carousel/gym.png",
+      "name": "Gym"
     }, {
-      "img": "/assets/images/carousel/guava.png",
-      "name": "Guava"
+      "img": "/assets/images/carousel/heater.png",
+      "name": "Heater"
     }, {
-      "img": "/assets/images/carousel/kiwi.png",
-      "name": "Kiwi"
+      "img": "/assets/images/carousel/heating-floor.png",
+      "name": "Heating floor"
     }, {
-      "img": "/assets/images/carousel/lemon.png",
-      "name": "Lemon"
+      "img": "/assets/images/carousel/hot-water.png",
+      "name": "Hot water"
     }, {
-      "img": "/assets/images/carousel/mango.png",
-      "name": "Mango"
+      "img": "/assets/images/carousel/iron.png",
+      "name": "Iron"
     }, {
-      "img": "/assets/images/carousel/maracuja.png",
-      "name": "Maracuja"
+      "img": "/assets/images/carousel/kitchen.png",
+      "name": "Kitchen"
     }, {
-      "img": "/assets/images/carousel/orange.png",
-      "name": "Orange"
+      "img": "/assets/images/carousel/microwave.png",
+      "name": "Microwave"
     }, {
-      "img": "/assets/images/carousel/peach.png",
-      "name": "Peach"
-    }, {
-      "img": "/assets/images/carousel/pear.png",
-      "name": "Pear"
-    }, {
-      "img": "/assets/images/carousel/pineapple.png",
-      "name": "Pineapple"
-    }, {
-      "img": "/assets/images/carousel/strawberry.png",
-      "name": "Strawberry"
-    }, {
-      "img": "/assets/images/carousel/watermelon.png",
-      "name": "Watermelon"
+      "img": "/assets/images/carousel/wi-fi.png",
+      "name": "Wi-Fi"
     }
   ]
 }

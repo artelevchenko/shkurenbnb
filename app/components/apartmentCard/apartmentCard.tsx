@@ -18,7 +18,15 @@ export default function ApartmentCard({apartment}: ApartmentProps) {
         />
       <div className={styles.inscription}>
         <div><b>{apartment.name}</b></div>
-        <div>{apartment.score}</div>
+        <div>
+          <Image className={styles.image}
+            src='/assets/images/star.png'
+            width={15}
+            height={15}
+            alt="star"
+          />
+          <div className={styles.score}>{apartment.score}</div>
+        </div>
       </div>
       <div className={styles.description}>{apartment.description} kilometers away.</div>
       <div><b>${apartment.price}</b> night</div>

@@ -1,6 +1,6 @@
 import styles from './main.module.css'
 import data from '../../../public/data/homes.json'
-import ApartmentCard from '../mainCard/apartmentCard'
+import ApartmentCard from '../apartmentCard/apartmentCard'
 
 export default function Main() {
   return (

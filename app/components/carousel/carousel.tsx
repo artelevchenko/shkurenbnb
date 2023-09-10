@@ -50,7 +50,29 @@ export default function Carousel() {
     )
   })
 
-
+  // options: ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
+  // {
+  //   "img": "/assets/images/carousel/maracuja.png",
+  //   "name": "Maracuja"
+  // }, {
+  //   "img": "/assets/images/carousel/orange.png",
+  //   "name": "Orange"
+  // }, {
+  //   "img": "/assets/images/carousel/peach.png",
+  //   "name": "Peach"
+  // }, {
+  //   "img": "/assets/images/carousel/pear.png",
+  //   "name": "Pear"
+  // }, {
+  //   "img": "/assets/images/carousel/pineapple.png",
+  //   "name": "Pineapple"
+  // }, {
+  //   "img": "/assets/images/carousel/strawberry.png",
+  //   "name": "Strawberry"
+  // }, {
+  //   "img": "/assets/images/carousel/watermelon.png",
+  //   "name": "Watermelon"
+  // }
 
   return (
     <div className={styles.carousel}>

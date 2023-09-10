@@ -11,7 +11,12 @@
 }
 .inscription {
   display: grid;
-  grid-template-columns: 8fr 1fr;
+  grid-template-columns: 8fr 2fr;
+}
+
+.score {
+  display: inline-block;
+  margin-left: 5px;
 }
 
 .description {

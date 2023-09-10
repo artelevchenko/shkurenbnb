@@ -2,68 +2,100 @@
   "homes": [
     {
       "id": "1",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-1.jpg",
       "name": "House 1",
       "price": "60",
       "score": 3.1,
       "description": "418",
-      "options": ["basin", "balcony", "garage", "gym", "iron", "heating", "hot water","kitchen", "microwave", "Wi-Fi"]
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }, {
       "id": "2",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-2.jpg",
       "name": "House 2",
       "price": "161",
       "score": 3.9,
-      "description": "663"
+      "description": "666",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }, {
       "id": "3",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-3.jpg",
       "name": "House 3",
       "price": "139",
       "score": 3.7,
-      "description": "548"
+      "description": "347",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }, {
       "id": "4",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-4.jpg",
       "name": "House 4",
       "price": "154",
       "score": 3.8,
-      "description": "530"
+      "description": "530",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }, {
       "id": "5",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-5.jpg",
       "name": "House 5",
       "price": "67",
       "score": 3.6,
-      "description": "265"
+      "description": "265",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }, {
       "id": "6",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-6.jpg",
       "name": "House 6",
       "price": "169",
       "score": 4.2,
-      "description": "695"
+      "description": "694",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }, {
       "id": "7",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-7.jpg",
       "name": "House 7",
       "price": "76",
       "score": 3.7,
-      "description": "515"
+      "description": "712",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }, {
       "id": "8",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-8.jpg",
       "name": "House 8",
       "price": "226",
       "score": 4.6,
-      "description": "163"
+      "description": "163",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }, {
       "id": "9",
-      "img": "/assets/images/main/defaultHome.jpg",
+      "img": "/assets/images/main/house-9.jpg",
       "name": "House 9",
-      "price": "136",
+      "price": "95",
       "score": 4.1,
-      "description": "829"
+      "description": "829",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
+    }, {
+      "id": "10",
+      "img": "/assets/images/main/house-10.jpg",
+      "name": "House 10",
+      "price": "170",
+      "score": 4.4,
+      "description": "593",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
+    }, {
+      "id": "11",
+      "img": "/assets/images/main/house-11.jpg",
+      "name": "House 11",
+      "price": "187",
+      "score": 4.3,
+      "description": "260",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
+    }, {
+      "id": "12",
+      "img": "/assets/images/main/house-12.jpg",
+      "name": "House 12",
+      "price": "205",
+      "score": 4.2,
+      "description": "678",
+      "options": ["balcony", "basin", "garage", "gym", "heating", "hot water", "iron", "kitchen", "microwave", "Wi-Fi"]
     }
   ]
 }

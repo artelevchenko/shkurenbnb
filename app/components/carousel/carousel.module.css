@@ -2,7 +2,7 @@
   margin: 10px;
   padding: 10px;
   display: flex;
-  column-gap: 47px;
+  column-gap: 75px;
 }
 
 .slide {
@@ -14,11 +14,9 @@
 
 .slide:hover {
   cursor: pointer;
+  border-radius: 5px;
   box-shadow: 0 0 11px rgba(33,33,33,.3);
 }
-
-/* .image {
-} */
 
 .inscription {
   text-align: center;
