@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "img": "/assets/images/carousel/air-conditioner.png",
+      "name": "Air conditioner"
+    }, {
+      "img": "/assets/images/carousel/balcony.png",
+      "name": "Balcony"
+    }, {
+      "img": "/assets/images/carousel/basin.png",
+      "name": "Basin"
+    }, {
+      "img": "/assets/images/carousel/car-charger.png",
+      "name": "Car charger"
+    }, {
+      "img": "/assets/images/carousel/garage.png",
+      "name": "Garage"
+    }, {
+      "img": "/assets/images/carousel/gym.png",
+      "name": "Gym"
+    }, {
+      "img": "/assets/images/carousel/heater.png",
+      "name": "Heater"
+    }, {
+      "img": "/assets/images/carousel/heating-floor.png",
+      "name": "Heating floor"
+    }, {
+      "img": "/assets/images/carousel/hot-water.png",
+      "name": "Hot water"
+    }, {
+      "img": "/assets/images/carousel/iron.png",
+      "name": "Iron"
+    }, {
+      "img": "/assets/images/carousel/kitchen.png",
+      "name": "Kitchen"
+    }, {
+      "img": "/assets/images/carousel/microwave.png",
+      "name": "Microwave"
+    }, {
+      "img": "/assets/images/carousel/wi-fi.png",
+      "name": "Wi-Fi"
+    }
+  ]
+}

@@ -1,9 +1,23 @@
 .carousel {
-	margin: 10px;
-	padding: 10px;
-	display: flex;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  column-gap: 75px;
 }
 
 .slide {
-	margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 11px rgba(33,33,33,.3);
+}
+
+.inscription {
+  text-align: center;
 }
