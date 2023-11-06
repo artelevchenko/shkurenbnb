@@ -1,44 +1,70 @@
 {
   "slides": [
     {
+      "id": "1",
       "img": "/assets/images/carousel/air-conditioner.png",
-      "name": "Air conditioner"
+      "name": "Air conditioner",
+      "description": "air conditioner"
     }, {
+      "id": "2",
       "img": "/assets/images/carousel/balcony.png",
-      "name": "Balcony"
+      "name": "Balcony",
+      "description": "balcony"
     }, {
+      "id": "3",
       "img": "/assets/images/carousel/basin.png",
-      "name": "Basin"
+      "name": "Basin",
+      "description": "basin"
     }, {
+      "id": "4",
       "img": "/assets/images/carousel/car-charger.png",
-      "name": "Car charger"
+      "name": "Car charger",
+      "description": "car charger"
     }, {
+      "id": "5",
       "img": "/assets/images/carousel/garage.png",
-      "name": "Garage"
+      "name": "Garage",
+      "description": "garage"
     }, {
+      "id": "6",
       "img": "/assets/images/carousel/gym.png",
-      "name": "Gym"
+      "name": "Gym",
+      "description": "gym"
     }, {
+      "id": "7",
       "img": "/assets/images/carousel/heater.png",
-      "name": "Heater"
+      "name": "Heater",
+      "description": "heater"
     }, {
+      "id": "8",
       "img": "/assets/images/carousel/heating-floor.png",
-      "name": "Heating floor"
+      "name": "Heating floor",
+      "description": "heating floor"
     }, {
+      "id": "9",
       "img": "/assets/images/carousel/hot-water.png",
-      "name": "Hot water"
+      "name": "Hot water",
+      "description": "hot water"
     }, {
+      "id": "10",
       "img": "/assets/images/carousel/iron.png",
-      "name": "Iron"
+      "name": "Iron",
+      "description": "iron"
     }, {
+      "id": "11",
       "img": "/assets/images/carousel/kitchen.png",
-      "name": "Kitchen"
+      "name": "Kitchen",
+      "description": "kitchen"
     }, {
+      "id": "12",
       "img": "/assets/images/carousel/microwave.png",
-      "name": "Microwave"
+      "name": "Microwave",
+      "description": "microwave"
     }, {
+      "id": "13",
       "img": "/assets/images/carousel/wi-fi.png",
-      "name": "Wi-Fi"
+      "name": "Wi-Fi",
+      "description": "Wi-Fi"
     }
   ]
 }

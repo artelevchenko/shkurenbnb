@@ -1,15 +1,17 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+"use client"
+
 import Header from './components/header/header'
 import Carousel from './components/carousel/carousel'
 import Main from './components/main/main'
+import { Provider } from 'react-redux'
+import { store } from './store'
 
 export default function Home() {
   return (
-    <div>
+    <Provider store={store}>
       <Header />
       <Carousel />
       <Main />
-    </div>
+    </Provider>
   )
 }

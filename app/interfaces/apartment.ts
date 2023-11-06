@@ -5,5 +5,5 @@ export interface Apartment {
   score: number,
   description: string,
   price: string,
-  options?: string[]
+  options: string[]
 }
